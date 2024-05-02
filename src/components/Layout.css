@@ -1,0 +1,35 @@
+header {
+  padding: 1rem;
+  background: bisque;
+  text-align: center;
+}
+
+footer {
+  background: bisque;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content-section {
+  min-width: 500px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .d-none {
+    display: block !important;
+  }
+}
